@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675968639863",
+    "project_id": "foodmobiepushnotification",
+    "storage_bucket": "foodmobiepushnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675968639863:android:259a6fda29c95492cbf772",
+        "android_client_info": {
+          "package_name": "com.aayush.foodreminder.foodreminder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675968639863-v8d7t29g7fh0hu3redogfs2b6kcdabrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc0zrdBUSMWuFixNBo4bEPSVbSF2_Y9ZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675968639863-v8d7t29g7fh0hu3redogfs2b6kcdabrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

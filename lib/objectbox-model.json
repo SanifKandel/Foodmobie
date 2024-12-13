@@ -1,0 +1,349 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1344162107331397200",
+      "lastPropertyId": "9:924116452875215234",
+      "name": "Food",
+      "properties": [
+        {
+          "id": "1:6766264511993050069",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:895008027080864364",
+          "name": "foodId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "1:7578534978283868896"
+        },
+        {
+          "id": "3:693679951638368095",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:6445311527640188941",
+          "name": "meal",
+          "type": 9
+        },
+        {
+          "id": "5:1966402941569793288",
+          "name": "recipe",
+          "type": 9
+        },
+        {
+          "id": "6:8181559648454035899",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "7:4137345419773802544",
+          "name": "calories",
+          "type": 9
+        },
+        {
+          "id": "8:8167979851689827224",
+          "name": "ingredients",
+          "type": 9
+        },
+        {
+          "id": "9:924116452875215234",
+          "name": "time",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:4946137288849511150",
+      "lastPropertyId": "8:1746758520477458698",
+      "name": "FoodMobieNotification",
+      "properties": [
+        {
+          "id": "1:1365335323344484096",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:1203160339072004804",
+          "name": "notificationId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "2:6924841335964844714"
+        },
+        {
+          "id": "3:3324644741719095542",
+          "name": "title",
+          "type": 9
+        },
+        {
+          "id": "5:6031161241616036020",
+          "name": "date",
+          "type": 9
+        },
+        {
+          "id": "6:6698404406359426422",
+          "name": "time",
+          "type": 9
+        },
+        {
+          "id": "7:6651867965416568347",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "8:1746758520477458698",
+          "name": "description",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2139207748788370887",
+      "lastPropertyId": "9:3007894600955716870",
+      "name": "Recommend",
+      "properties": [
+        {
+          "id": "1:6162712308096464690",
+          "name": "id",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:7465897426314697079",
+          "name": "foodId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "3:6919019349821843963"
+        },
+        {
+          "id": "3:7938971095627612124",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:2273883370859444530",
+          "name": "meal",
+          "type": 9
+        },
+        {
+          "id": "5:2031495745155445301",
+          "name": "recipe",
+          "type": 9
+        },
+        {
+          "id": "6:1232243741282168179",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "7:3077106941439900539",
+          "name": "calories",
+          "type": 9
+        },
+        {
+          "id": "8:6039898751124124363",
+          "name": "ingredients",
+          "type": 9
+        },
+        {
+          "id": "9:3007894600955716870",
+          "name": "time",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:1179532321345148231",
+      "lastPropertyId": "8:8917315992228147627",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:5923350777080627773",
+          "name": "uId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:1689564194210600678",
+          "name": "userId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "4:3031016550447647128"
+        },
+        {
+          "id": "3:6947579100370473240",
+          "name": "email",
+          "type": 9
+        },
+        {
+          "id": "4:732469358605942591",
+          "name": "firstName",
+          "type": 9
+        },
+        {
+          "id": "5:164460407294479113",
+          "name": "lastName",
+          "type": 9
+        },
+        {
+          "id": "6:1726037806707466848",
+          "name": "userName",
+          "type": 9
+        },
+        {
+          "id": "7:1237900817298427317",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "8:8917315992228147627",
+          "name": "password",
+          "type": 9
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:1967530988462916536",
+          "name": "food",
+          "targetId": "1:1344162107331397200"
+        }
+      ]
+    },
+    {
+      "id": "5:2564515615139403861",
+      "lastPropertyId": "4:478424034160765997",
+      "name": "UserFeedback",
+      "properties": [
+        {
+          "id": "1:4677770528357586420",
+          "name": "fId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:1327650541928491593",
+          "name": "feedbackId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "5:8361001148529263275"
+        },
+        {
+          "id": "3:7426572554245753816",
+          "name": "subject",
+          "type": 9
+        },
+        {
+          "id": "4:478424034160765997",
+          "name": "message",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:1691860063352244565",
+      "lastPropertyId": "12:8547104613125171011",
+      "name": "Reminder",
+      "properties": [
+        {
+          "id": "1:8570124643952056981",
+          "name": "rId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:2672975601524153788",
+          "name": "reminderId",
+          "type": 9,
+          "flags": 2080,
+          "indexId": "8:3838526471911109866"
+        },
+        {
+          "id": "3:8325217209502125250",
+          "name": "foodname",
+          "type": 9
+        },
+        {
+          "id": "4:4489661675988930997",
+          "name": "calories",
+          "type": 9
+        },
+        {
+          "id": "5:7850155747571197412",
+          "name": "cookingtime",
+          "type": 9
+        },
+        {
+          "id": "6:1355159642397918339",
+          "name": "meal",
+          "type": 9
+        },
+        {
+          "id": "7:1399208389288073595",
+          "name": "date",
+          "type": 9
+        },
+        {
+          "id": "8:8712581239366386694",
+          "name": "time",
+          "type": 9
+        },
+        {
+          "id": "9:3996813536829157037",
+          "name": "recipe",
+          "type": 9
+        },
+        {
+          "id": "10:6623519463725003047",
+          "name": "ingredients",
+          "type": 9
+        },
+        {
+          "id": "11:8675123628642272235",
+          "name": "message",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "7:1691860063352244565",
+  "lastIndexId": "8:3838526471911109866",
+  "lastRelationId": "1:1967530988462916536",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    2871977524112580146
+  ],
+  "retiredIndexUids": [
+    2627685762152290969
+  ],
+  "retiredPropertyUids": [
+    7771151405227623840,
+    100484448431104434,
+    2744814154582237263,
+    4862389813192446018,
+    148588992655206087,
+    6945309039967837533,
+    5781284698198515535,
+    8915580551940455364,
+    656189331751699109,
+    8914483586915909112,
+    1984564901565657934,
+    260199429844565873,
+    6302449808485769767,
+    8547104613125171011
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
